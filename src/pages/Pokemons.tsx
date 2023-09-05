@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { fetchPokemons } from '../api/fetchPokemons';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import styles from "../components/pokemons.module.css";
+import styles from "./pokemons.module.css";
 import { Pokemon } from '../types/types';
 import LoadingScreen from '../components/LoadingScreen';
 import { waitFor } from '../utils/utils';
